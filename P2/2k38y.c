@@ -14,5 +14,9 @@ int main(int argc, char const *argv[])
     // puts(asctime(tm_info));
     puts(buffer);
 
+    // Otra forma de sacar el valor máximo de un entero
+    // printf("%d\n",(int)pow(2,sizeof(int)*8));
+	// printf("%d\n",INT_MAX);
+
 	return 0;
 }
