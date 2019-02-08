@@ -3,8 +3,13 @@
 
 int main(int argc, char const *argv[])
 {
-	// for (int i = 0; i < 20; i++)
-	// 	printf("%d %s\n",i, (i&1 == 1) ? "impar":"par");
-	printf("El número: %d es %s\n",atoi(argv[1]), (atoi(argv[1])&1 == 1) ? "impar":"par" );
+	if (argc < 2){
+		printf("Ingresa el numero limite para imprimir los pares\n");
+		exit(1);
+	}
+
+	for (int i = 0; i < atoi(argv[1]); i++)
+		i&1 ? : printf("%d ",i);
+
 	return 0;
 }

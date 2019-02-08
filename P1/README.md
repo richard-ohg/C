@@ -1,4 +1,4 @@
-# PRACTICA 1
+# Práctica 1
 
 Algoritmo de fizzbuzz:
 
