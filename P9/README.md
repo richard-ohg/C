@@ -9,7 +9,11 @@ struct instructor ins(struct instructor i){
 	i.curso[0] = "C";
 	i.edad = 28;
 	i.carisma = NULL;
-	
+
 	return i;
 }
 ```
+
+2. Algoritmo bubblesort con aritmetica de apuntadores
+
+3. Invertir una cadena con aritmetica de apuntadores
