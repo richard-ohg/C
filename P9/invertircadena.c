@@ -14,7 +14,7 @@ int main(int argc, char const *argv[])
 
 	printf("\n");
 
-	// Recorriendo con apuntadores de forma
+	// Recorriendo con apuntadores de otra forma
 	for (int i = strlen(cadena)-1 ; i >= 0; --i)
 	{
 		printf("%c ",*(cadena+i));
