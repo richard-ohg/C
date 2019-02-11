@@ -8,5 +8,6 @@ gcc base64.c -lcryto -lm
 ```
 
 * Para ejecutar:
-
+```
 ./a.out cadena
+```
